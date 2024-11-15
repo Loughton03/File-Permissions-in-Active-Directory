@@ -20,7 +20,7 @@ This lab explores configuring file permissions and shared folders within an Acti
 
 <img src="https://i.imgur.com/fmGRmxl.png" height="80%" width="80%" alt="folder-creation-for-file-persmisions"/>
 
-<img src="" height="80%" width="80%" alt="place-holder"/>
+<img src="https://i.imgur.com/INJaaVv.png" height="80%" width="80%" alt="giving-domain-users-read-access"/>
 
 <p>
 I logged in as an admin on the domain controller and created four folders on the C:\ drive with names indicating their intended access level. To configure sharing, I accessed each folder's Properties, selected "Share" under the Sharing tab, and specified network users and permissions:
@@ -29,21 +29,21 @@ I logged in as an admin on the domain controller and created four folders on the
 - Domain Users have **Read** access to the "read-access" folder and **Read/Write** access to the "write-access" folder.
 - Domain Admins have **Read/Write** access to the "no-access" folder.
 
-<img src="" height="80%" width="80%" alt="place-holder"/>
+<img src="https://i.imgur.com/BfLgm77.png" height="80%" width="80%" alt="unsuccessful-access"/>
 
 <p>
 On the client VM, I navigated to \dc-1 in File Explorer to view the shared folders. As expected, specific folders only allowed viewing without modification, while others had no access. This demonstrated how folder permissions correspond to Security Group memberships and each folder's specific access settings.
 </p>
 
-<img src="" height="80%" width="80%" alt="place-holder"/>
+<img src="https://i.imgur.com/4UwH1Sw.png" height="80%" width="80%" alt="creating-groups-for-accountants"/>
 
-<img src="" height="80%" width="80%" alt="place-holder"/>
+<img src="https://i.imgur.com/UVOAt8i.png" height="80%" width="80%" alt="place-holder"/>
 
 <p>
 To control access to an "accounting" folder, I created a new Security Group called "ACCOUNTANTS" in the domain controller's Active Directory Users and Computers panel. I then granted Read/Write permissions to this group for the "accounting" folder.
 </p>
 
-<img src="" height="80%" width="80%" alt="place-holder"/>
+<img src="https://i.imgur.com/zxTECVp.png" height="80%" width="80%" alt="giving-members-accounting-folder-access"/>
 
 <img src="https://i.imgur.com/aSMil2y.png" height="80%" width="80%" alt="accessing-accounting-folder"/>
 
