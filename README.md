@@ -45,7 +45,7 @@ To control access to an "accounting" folder, I created a new Security Group call
 
 <img src="" height="80%" width="80%" alt="place-holder"/>
 
-<img src="" height="80%" width="80%" alt="place-holder"/>
+<img src="https://i.imgur.com/aSMil2y.png" height="80%" width="80%" alt="accessing-accounting-folder"/>
 
 <p>
 To finalize access, I added the client user, bon.rovej, to the ACCOUNTANTS group. After logging off and back on, bon.rovej could access the "accounting" folder, validating the permissions configuration.
