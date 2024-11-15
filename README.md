@@ -1,5 +1,5 @@
 <p align="center">
-<img src="" alt="place-holder"/>
+<img src="https://i.imgur.com/cvGKzqB.png" alt="logo"/>
 </p>
 
 <h1>Understanding File Permissions in an Active Directory Enviornment</h1>
@@ -18,7 +18,7 @@ This lab explores configuring file permissions and shared folders within an Acti
 
 <h2>File Permissions Configuration Steps</h2>
 
-<img src="" height="80%" width="80%" alt="place-holder"/>
+<img src="https://i.imgur.com/fmGRmxl.png" height="80%" width="80%" alt="folder-creation-for-file-persmisions"/>
 
 <img src="" height="80%" width="80%" alt="place-holder"/>
 
